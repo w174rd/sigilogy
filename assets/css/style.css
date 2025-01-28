@@ -22,6 +22,9 @@
 	.fade-in-up:nth-child(5) {
       animation-delay: 2.5s;
     }
+	.fade-in-up:nth-child(6) {
+      animation-delay: 3s;
+    }
     @keyframes fadeInUp {
       to {
         opacity: 1;
