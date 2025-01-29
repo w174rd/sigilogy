@@ -21,8 +21,10 @@
 
     <!-- Importing Styles  -->
     <script src="assets/js/style-3.4.16.js"></script>
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+	  <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/share_style.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
 
     <!-- Importing SVG Icons -->
     <link
@@ -105,7 +107,33 @@
 			>Email</a
 		  >
 		  <h5 class="mt-5 fade-in-up text-xs text-gray-500">Copyright &copy; <script>document.write(new Date().getFullYear())</script> <a href="http://sigilogy.com" class="underline hover:text-blue-400">sigilogy</a></h5>
-	  </div>
+	  
+      <button class="view-modal"><i class="uil uil-share-alt"></i></button>
     </div>
+
+    <div class="popup">
+      <header>
+        <span>Share Modal</span>
+        <div class="close"><i class="uil uil-times"></i></div>
+      </header>
+      <div class="content">
+        <p>Share this link via</p>
+        <ul class="icons">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://sigilogy.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://x.com/intent/post?url=https://sigilogy.com" target="_blank"><i class="fab fa-x"></i></a>
+          <a href="https://wa.me/?text=https://sigilogy.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://t.me/share/url?url=https://sigilogy.com" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+        </ul>
+        <p>Or copy link</p>
+        <div class="field">
+          <i class="url-icon uil uil-link"></i>
+          <input type="text" readonly value="https://sigilogy.com">
+          <button>Copy</button>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    <script src="assets/js/share.js"></script>
   </body>
 </html>
