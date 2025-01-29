@@ -95,22 +95,31 @@ header .close:hover{
 .content p{
   font-size: 16px;
 }
-.content .icons a{
-  height: 50px;
-  width: 50px;
-  font-size: 20px;
+div .icons {
+  overflow: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+div .icons a {
+  display: inline;
+  text-align: center;
+  margin-right: 10px;
   text-decoration: none;
   border: 1px solid transparent;
 }
 .icons a i{
   transition: transform 0.3s ease-in-out;
+  font-size: 20px;
+  padding: 14px;
+  width: 50px;
+  height: 50px;
 }
 .icons a:nth-child(1){
-  color: #1877F2;
-  border-color: #b7d4fb;
+  color: #0866ff;
+  border-color: #77abff;
 }
 .icons a:nth-child(1):hover{
-  background: #1877F2;
+  background: #0866ff;
 }
 .icons a:nth-child(2){
   color: #535353;
@@ -119,26 +128,40 @@ header .close:hover{
 .icons a:nth-child(2):hover{
   background: #010101;
 }
-/* .icons a:nth-child(3){
-  color: #e1306c;
-  border-color: #f5bccf;
-}
-.icons a:nth-child(3):hover{
-  background: #e1306c;
-} */
 .icons a:nth-child(3){
-  color: #25D366;
-  border-color: #bef4d2;
+  color: #e70025;
+  border-color: #eb2344;
 }
 .icons a:nth-child(3):hover{
-  background: #25D366;
+  background: #e70025;
 }
 .icons a:nth-child(4){
-  color: #0088cc;
-  border-color: #b3e6ff;
+  color: #0077b5;
+  border-color: #509ec9;
 }
 .icons a:nth-child(4):hover{
-  background: #0088cc;
+  background: #0077b5;
+}
+.icons a:nth-child(5){
+  color: #46e763;
+  border-color: #7be78f;
+}
+.icons a:nth-child(5):hover{
+  background: #46e763;
+}
+.icons a:nth-child(6){
+  color: #33aae0;
+  border-color: #71bcdf;
+}
+.icons a:nth-child(6):hover{
+  background: #33aae0;
+}
+.icons a:nth-child(7){
+  color: #3a5d92;
+  border-color: #3a5d92;
+}
+.icons a:nth-child(7):hover{
+  background: #3a5d92;
 }
 .icons a:hover{
   color: #fff;
