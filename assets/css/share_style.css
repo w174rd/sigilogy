@@ -22,12 +22,12 @@ button{
   transition: background 0.1s linear, border-color 0.1s linear, color 0.1s linear;
 }
 .view-modal{
-  position: absolute;
+  position: relative;
   color: #cccc;
   font-size: 27px;
   padding: 5px 5px;
-  top: 20px;
-  right: 20px;
+  /* top: 20px;
+  right: 20px; */
 }
 .popup{
   background: #fff;
