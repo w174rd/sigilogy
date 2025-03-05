@@ -33,10 +33,26 @@ button{
   padding: 3px 3px;
   margin-bottom: -30px;
 }
-.popup, .popup-qrcode{
+.popup{
   background: #fff;
   color: #000;
   padding: 25px;
+  border-radius: 15px;
+  top: -150%;
+  max-width: 380px;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+  transform: translate(-50%, -50%) scale(1.2);
+  transition: top 0s 0.2s ease-in-out,
+              opacity 0.2s 0s ease-in-out,
+              transform 0.2s 0s ease-in-out;
+}
+.popup-qrcode{
+  background: #fff;
+  color: #000;
+  padding: 25px 25px 0px 25px;
   border-radius: 15px;
   top: -150%;
   max-width: 380px;
@@ -90,10 +106,10 @@ header .close{
 header .close:hover{
   background: #ebedf9;
 }
-.popup .content, .popup-qrcode .content{
+.popup .content{
   margin: 20px 0;
 }
-.popup .icons, .popup-qrcode .icons{
+.popup .icons{
   margin: 15px 0 20px 0;
 }
 .content p{
@@ -206,4 +222,11 @@ div .icons a {
 }
 .field button:hover{
   background: #333333;
+}
+
+.popup-qrcode .content-qrcode{
+  margin: 20px 0;
+}
+.content-qrcode p{
+  font-size: 16px;
 }
